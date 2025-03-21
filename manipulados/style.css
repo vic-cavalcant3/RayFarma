@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Afacad';
+}
+
+@font-face {
+    font-family: 'Afacad';
+    src: url(/fonts/Afacad.ttf);}
+
+@font-face {
+    font-family: 'Afacad-Italic';
+    src: url(/fonts/Afacad-Italic.ttf);}
+
+@font-face {
+    font-family: 'Kodchasan-Regular';
+    src: url(/fonts/Kodchasan-Regular.ttf);}
+
+@font-face {
+    font-family: 'Kodchasan-Medium';
+    src: url(/fonts/Kodchasan-Medium.ttf);}
+
+@font-face {
+    font-family: 'Kodchasan-Bold';
+    src: url(/fonts/Kodchasan-Bold.ttf);}
+
+    body {
+        background-color: #02382E;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    
+    .login-container {
+        background-color: #FFFFFF;
+        width: 800px;
+        display: flex;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        overflow: hidden;
+    }
+    
+    .login-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .login-box {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    
+    .login-form {
+        padding: 40px;
+        width: 50%;
+        background-color: white;
+    }
+    
+    h1 {
+        color: #FFFFFF;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    h1 {
+        color: #02382E;
+        margin-bottom: 30px;
+    }
+    
+    .input-group {
+        margin-bottom: 20px;
+    }
+    
+    label {
+        display: block;
+        font-size: 14px;
+        margin-bottom: 5px;
+        color: #666;
+    }
+    
+    input[type="text"],
+    input[type="date"],
+    input[type="file"] {
+        width: 100%;
+        padding: 10px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+        font-size: 10px;
+    }
+    
+    button {
+        width: 100%;
+        padding: 12px;
+        background-color: #02382E;
+        color: white;
+        font-size: 16px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #035C4A;
+    }
+    
+    .options {
+        text-align: right;
+        margin-bottom: 20px;
+    }
+    
+    .options a {
+        text-decoration: none;
+        color: #02382E;
+    }
+    
+    .options a:hover {
+        color: #035C4A;
+    }
+    .label2{
+        font-size: 10px;
+    }
