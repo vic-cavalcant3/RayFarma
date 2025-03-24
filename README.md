@@ -7,7 +7,6 @@ O objetivo deste projeto é fornecer uma plataforma simples e eficiente para ger
 Foi desenvolvido no meu terceiro semestre de ADS no SENAI como parte de um projeto de curso.
 
 <br>
-<br>
 
  ## 💻 Tecnologias Utilizadas 💻
 
